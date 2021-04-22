@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+/* master-conteiner */
+#master-conteiner{
+    max-width: 1200px;
+    background-color: lightgrey;
+    margin:auto;
+    padding: 25px 15px;
+}
+/*  */
+/* HEADER */
+header{
+    height: 100px;
+    background-color:pink;
+    padding: 5px;
+}
+#logo-conteiner{
+    width: 200px;
+    height: 90px;
+    background-color:palevioletred;
+}
+/*  */
+/* full-sixe-conteiner */
+#full-size-conteiner{
+    margin:25px 0;
+    height: 500px;
+    background-color:rgb(255, 255, 108);
+}
+/*  */
+/* layout */
+#layout{
+    height: 900px;
+    margin:25px 0;
+}
+#layout::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#layout-top{
+    background-color:blue;
+    height: 100px;
+    padding-bottom: 15px;
+}
+#layout-left{
+    float: left;
+    background-color:blue;
+    height: 800px;
+    width: 25%;
+    padding:15px 15px 15px 0px;
+}
+#layout-center{
+    float: left;
+    background-color:blue;
+    height: 800px;
+    width: 50%;
+    padding: 15px 15px 15px 15px ;
+}
+#layout-right{
+    float: right;
+    background-color:blue;
+    height: 800px;
+    width: 25%;
+    padding: 15px 0px 15px 15px;
+}
+#layout-center>div, #layout-left>div ,#layout-right>div,#layout-top>div{
+    background-color:cyan;
+    height: 100%;
+    width: 100%;
+}
+/*  */
+/* FOOTER */
+footer{
+    background-color: blueviolet;
+    height: 200px;
+}
+/*  */
